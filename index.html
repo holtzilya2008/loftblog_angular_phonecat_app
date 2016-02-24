@@ -24,12 +24,15 @@
         <li class="active"><a href="#">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#contact">Contact</a></li>
+        <li><a href="#other">Other</a></li>
       </ul>
     </div><!-- /.nav-collapse -->
   </div><!-- /.container -->
 </nav><!-- /.navbar -->
 
 <div class="container">
+
+  <ng-view></ng-view>
 
   <div class="row row-offcanvas row-offcanvas-right">
 
@@ -80,6 +83,7 @@
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/angular-route/angular-route.js"></script>
 <script src="js/controllers.js"></script>
 </body>
 </html>
